@@ -26,7 +26,7 @@ raid_team_name: Wildcards
 site_admin_name: tacofish
 guild_name: Currently Offline
 
-repository: github.com/tacofish/
+repository: tacofish/wildcards-info
 
 #defaults
 collections:

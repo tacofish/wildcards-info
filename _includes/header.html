@@ -3,18 +3,18 @@
     <a class="site-title" href="/">{{ site.title }}</a>
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">&times;</a>
-      <a href="/">Home</a>
+      <a href="{{site.baseurl}}/">Home</a>
       {% for category in site.collections %}
         {% if category.label != "posts" %}<div class="category nav">{{ category.label }}<br /></div>
         <div class="category-links nav">
           {% for item in category.docs %}
-            {% if item.title %}<a href="{{item.url}}">{{ item.title }}</a>{% endif %}
+            {% if item.title %}<a href="{{site.baseurl}}/{{item.url}}">{{ item.title }}</a>{% endif %}
           {% endfor %}
         </div>
         {% endif %}
       {% endfor %}
-      <a href="/members/">Members</a>
-      <a href="/about/">About</a>
+      <a href="{{site.baseurl}}/members/">Members</a>
+      <a href="{{site.baseurl}}/about/">About</a>
     </div>
 
     <span style="font-size:30px;cursor:pointer" onclick="toggleNav()">&#9776;</span>
