@@ -1,0 +1,32 @@
+# This file is meant to serve as a way to post the member list along with their specs
+# and offspecs, if they have any. If you populate this page, the members will show up
+# in the members.md markdown file. This file forms up as follows:
+# groups:
+#   - name: Raid position
+#     members:
+#     - name: raider name
+#       class: raider class
+#       spec: raider spec
+#       offspec: raider offspec
+---
+groups:
+  - name: Raid Leaders
+    members:
+    - name: Tacofish
+      class: Monk
+      spec: Mistweaver
+      offspec: Brewmaster
+  - name: Raiders
+    members:
+    - name: Imemba
+      class: Druid
+      spec: Feral
+      offspec: Balance
+  - name: Trial Raiders
+    members:
+    - name: Amiblesst
+      class: Priest
+      spec: Shadow
+    - name: Jaceequivar
+      class: Monk
+      spec: Brewmaster
