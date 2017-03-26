@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Documentation and guides for the World of Warcraft raid team,
   the Wildcards. Part of the Currently Offline guild on the US
   server, Sargeras.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/wildcards-info" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 guild_url: "http://coguild.com"
 raid_team_name: Wildcards
