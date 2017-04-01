@@ -31,3 +31,5 @@ permalink: /rules/
 6. Guild bank materials are only accessible to Team Managers. If you need something, ask, do not help yourself.
 7. Be open minded and receptive to feedback, but also provide constructive feedback.
 9. Keep disputes in private messages. This is to make sure resolution is met without disrupting others.
+
+By joining the {{site.raid_team_name}} raiding team, you implicitly agree that you will abide by these policies and rules, as well as the Code of Conduct. Failure to do so may result in your removal from the {{site.raid_team_name}} raid team.
