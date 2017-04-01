@@ -14,14 +14,13 @@
             <ul class="post-list">
               {% for post in site.posts %}
               <li>
-                <a href="{{ post.url }}">{{ post.title }}</a><br />
+                <a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a><br />
                 <font size="2" class="{{post.title}}-author">
                   by {{post.author}}
                 </font>
               </li>
               {% endfor %}
           </ul>
-          <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
         </div>
       </div>
     </main>
