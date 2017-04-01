@@ -8,7 +8,7 @@
         {% if category.label != "posts" %}<div class="category nav">{{ category.label }}<br /></div>
         <div class="category-links nav">
           {% for item in category.docs %}
-            {% category %}
+            {% item %}
             {% if item.title %}<a href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a>{% endif %}
           {% endfor %}
         </div>
