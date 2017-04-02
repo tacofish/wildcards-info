@@ -30,3 +30,23 @@ groups:
     - name: Jaceequivar
       class: Monk
       spec: Brewmaster
+    - name: Keggarr
+      class: Paladin
+      spec: Retribution
+      offspec: Protection
+    - name: Jaiaian
+      class: Paladin
+      spec: Holy
+      offspec: Protection
+    - name: Lilbeneditto
+      class: Warrior
+      spec: Fury
+      offspec: Protection
+    - name: Hannie
+      class: Druid
+      spec: Restoration
+      offspec: Balance
+    - name: ßóôtylicious
+      class: Monk
+      spec: Windwalker
+      offspec: Brewmaster
