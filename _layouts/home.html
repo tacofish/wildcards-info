@@ -6,11 +6,8 @@
   <body>
 
 {% include header.html %}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
         <div class="home">
-            <h1 class="page-heading">Posts</h1>
+            <div class="page-header h3">News</div>
             <ul class="post-list">
               {% for post in site.posts %}
               <li>
@@ -22,11 +19,4 @@
               {% endfor %}
           </ul>
         </div>
-      </div>
-    </main>
-
 {% include footer.html %}
-
-  </body>
-
-</html>

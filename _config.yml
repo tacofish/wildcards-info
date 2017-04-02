@@ -13,20 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: The Wildcards Reference Documentation
+title: The Wildcards Raid Team
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Documentation and guides for the World of Warcraft raid team,
   the Wildcards. Part of the Currently Offline guild on the US
   server, Sargeras.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://teamwildcards.com" # the base hostname & protocol for your site, e.g. http://example.com
 guild_url: "http://coguild.com"
 raid_team_name: Wildcards
 site_admin_name: tacofish
 guild_name: Currently Offline
-
-repository: tacofish/wildcards-info
 
 #defaults
 collections:
@@ -45,7 +43,10 @@ collections:
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme:
+
+sass:
+  sass_dir: bower_components/bootstrap-sass/assets/stylesheets
 gems:
   - jekyll-feed
 include:

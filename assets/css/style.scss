@@ -1,7 +1,24 @@
 ---
 ---
+// Uncomment if using a theme.
+//@import "{{ site.theme }}";
 
-@import "{{ site.theme }}";
+@charset "utf-8";
+
+/**
+  Define your custom variables here.
+  This will override variables from
+  /bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
+**/
+
+/** redefine glyphicon path **/
+$icon-font-path: "{{site.baseurl}}/bower_components/bootstrap-sass/assets/fonts/bootstrap/" !default;
+
+@import "bootstrap";
+
+/**
+  Set your custom scss rules here
+**/
 
 .sidenav {
     height: 100%;
