@@ -1,0 +1,78 @@
+# This file is meant to serve as a way to post the member list along with their specs
+# and offspecs, if they have any. If you populate this page, the members will show up
+# in the members.md markdown file. This file forms up as follows:
+# groups:
+#   - name: Raid position
+#     members:
+#     - name: raider name
+#       class: raider class
+#       spec: raider spec
+#       offspec: raider offspec
+#       rank: rank
+---
+- name: Tacofish
+  class: Monk
+  spec: Mistweaver
+  offspec: Brewmaster
+  rank: Team Manager
+- name: Amiblesst
+  class: Priest
+  spec: Shadow
+  rank: Team Manager
+- name: Imemba
+  class: Druid
+  spec: Feral
+  offspec: Balance
+  rank: Raider
+- name: Kittenpile
+  class: Death Knight
+  spec: Blood
+  rank: Raider
+- name: Jaceequivar
+  class: Monk
+  spec: Brewmaster
+  rank: Raider
+- name: Keggarr
+  class: Paladin
+  spec: Retribution
+  offspec: Protection
+  rank: Raider
+- name: Jaiaian
+  class: Paladin
+  spec: Holy
+  offspec: Protection
+  rank: Raider
+- name: Lilbeneditto
+  class: Warrior
+  spec: Fury
+  offspec: Protection
+  rank: Raider
+- name: Hannie
+  class: Druid
+  spec: Restoration
+  offspec: Balance
+  rank: Raider
+- name: ßóôtylicious
+  class: Monk
+  spec: Windwalker
+  offspec: Brewmaster
+  rank: Raider
+- name: Hnybadger
+  class: Mage
+  spec: Arcane
+  offspec: Fire
+  rank: Raider
+- name: Illnara
+  class: Demon Hunter
+  spec: Havoc
+  offspec: Vengeance
+  rank: Raider
+- name: Børns
+  class: Hunter
+  spec: Marksman
+  offspec: Beast Master
+  rank: Raider
+- name: Faley
+  class: Mage
+  spec: Fire
+  rank: Raider
