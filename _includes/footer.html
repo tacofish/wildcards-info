@@ -1,6 +1,6 @@
   </main>
-  <footer class="site-footer">
-    <div class="wrapper panel panel-default">
+  <footer class="footer">
+    <div class="container panel panel-default">
       <div class="panel-body">
         <div class="row h5 small">
           <div class="col-xs-4">
@@ -15,7 +15,7 @@
                 Our Parent:<a href="{{site.guild_url}}"> {{site.guild_name}}</font></a>
               </li>
               <li>
-                <p class="rss-subscribe">Subscribe to our news feed <a href="{{site.baseurl}}/feed.xml">via RSS</a></p>
+                <p class="rss-subscribe">Subscribe to our news feed <a href="{{site.baseurl}}feed.xml">via RSS</a></p>
               </li>
             </ul>
           </div>
@@ -25,8 +25,6 @@
         </div>
       </div>
     </div>
-
-    </div>
   </footer>
 
 </div>
@@ -35,7 +33,8 @@
 
 <script src="{{site.baseurl}}bower_components/jquery/dist/jquery.min.js"></script>
 <script src="{{site.baseurl}}bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+{% if page.title == "Members" %}
+<script src="{{site.baseurl}}assets/js/members.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.13/af-2.1.3/b-1.2.4/b-colvis-1.2.4/b-html5-1.2.4/b-print-1.2.4/cr-1.3.2/r-2.1.1/sc-1.4.2/se-1.2.0/datatables.min.js"></script>
+{% endif %}
 <script src="{{site.baseurl}}assets/js/global.js"></script>
-</body>
-
-</html>

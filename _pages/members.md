@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Members
 permalink: /members/
 ---
 <div class="row">
@@ -7,32 +8,45 @@ permalink: /members/
     Raid Team Members
   </div>
 </div>
-{% for group in site.data.raiders.groups %}
-  <div class="row">
-    <div class="col-xs-12">
-      <table class="table table-bordered">
-        <caption>{{group.name}}</caption>
+
+<div class="row">
+  <div class="col-xs-12">
+    <table class="table table-bordered" id="members">
+      <thead>
         <tr>
           <th>Name</th>
           <th>Class</th>
           <th>Spec</th>
           <th>Off-Spec</th>
+          <th>Rank</th>
         </tr>
-        {% for raider in group.members %}
-          <tr>
-            <td>{{raider.name}}</td>
-            <td>{{raider.class}}</td>
-            <td>{{raider.spec}}</td>
-            <td>
-              {% if raider.offspec %}
-                {{raider.offspec}}
-              {% else %}
-                N/A
-              {% endif %}
-            </td>
-          </tr>
-        {% endfor %}
-      </table>
-    </div>
+      </thead>
+      <tfoot>
+        <tr>
+          <th>Name</th>
+          <th>Class</th>
+          <th>Spec</th>
+          <th>Off-Spec</th>
+          <th>Rank</th>
+        </tr>
+      </tfoot>
+      <tbody>
+      {% for raider in site.data.raiders %}
+        <tr>
+          <td>{{raider.name}}</td>
+          <td>{{raider.class}}</td>
+          <td>{{raider.spec}}</td>
+          <td>
+            {% if raider.offspec %}
+              {{raider.offspec}}
+            {% else %}
+              N/A
+            {% endif %}
+          </td>
+          <td>{{raider.rank}}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
   </div>
-{% endfor %}
+</div>

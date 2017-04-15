@@ -12,6 +12,7 @@
 
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="The Wildcards Raid Team" href="/feed.xml">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.13/af-2.1.3/b-1.2.4/b-colvis-1.2.4/b-html5-1.2.4/b-print-1.2.4/cr-1.3.2/r-2.1.1/sc-1.4.2/se-1.2.0/datatables.min.css"/>
 
 </head>
 
@@ -52,6 +53,8 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Policies<span class="caret"></span></a>
             <ul class="dropdown-menu">
+    
+            <li><a href="http://localhost:4000/conduct/">Raiding Code of Conduct</a></li>
     
             <li><a href="http://localhost:4000/rules/">Rules and Policies</a></li>
     
@@ -98,23 +101,31 @@
 
 
         <div class="home">
-          <ol>
-  <li>Be constructive in your criticisms of other players. They’re trying, so offer them some tips and pointers instead of just telling them they’re bad.</li>
-  <li>Be on time, or your spot may be given up.</li>
-  <li>Keep your cool. Wipes and mistakes will and can happen. Don’t scream at people in Discord.</li>
-  <li>Keep an open mind. No one knows everything; even the developers of WoW. Be open to feedback and new ideas.</li>
-  <li>Show up to raids prepared. We all need to put forth effort to be ready to clear content. No one is exempt.</li>
-  <li>Keep things civil. Tensions will run high when we hit a new boss. No one downs new content on their first try. Don’t rage and let us know if you need a breather to cool your temper.</li>
-  <li>Put forward your best effort. This isn’t a team that’s going to judge you if you don’t put up crazy numbers, but we ask that you put in the effort to improve. We use Deadpool’s war cry as an expectation: “Maximum effort!”</li>
-  <li>During raid fights, keep the voice channel clear for raid relevant communication.</li>
-  <li>No damage meters in public channels. We use damage meters only to look at how we’re doing during a raid; not to shame or boot people.</li>
-</ol>
+          <div class="row">
+  <div class="col-xs-12 h4">
+    Raiding Code of Conduct
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <ul>
+      <li>DON'T be a jerk. Everyone is learning and always looking to improve. Feedback should be constructive.</li>
+      <li>DON'T spam raid chat outside of breaks during progression runs. Communication is key while trying to down new content.</li>
+      <li>DO help others. We'll find people struggling, and we should help them elevate their game through tips and tricks.</li>
+      <li>DO give pointers for strategy adjustments.</li>
+      <li>DON'T rage on people during a wipe.</li>
+      <li>DO keep discord voice clear during pulls.</li>
+      <li>DO read strategies prior to raid day. We will provide reminder explanations, but we expect some degree of preparation.</li>
+      <li>DO listen to the raid leader(s) and tanks. They coordinate pulls.</li>
+    </ul>
+  </div>
+</div>
 
         </div>
 
   </main>
-  <footer class="site-footer">
-    <div class="wrapper panel panel-default">
+  <footer class="footer">
+    <div class="container panel panel-default">
       <div class="panel-body">
         <div class="row h5 small">
           <div class="col-xs-4">
@@ -129,7 +140,7 @@
                 Our Parent:<a href="http://coguild.com"> Currently Offline</font></a>
               </li>
               <li>
-                <p class="rss-subscribe">Subscribe to our news feed <a href="//feed.xml">via RSS</a></p>
+                <p class="rss-subscribe">Subscribe to our news feed <a href="/feed.xml">via RSS</a></p>
               </li>
             </ul>
           </div>
@@ -140,8 +151,6 @@
         </div>
       </div>
     </div>
-
-    </div>
   </footer>
 
 </div>
@@ -150,10 +159,8 @@
 
 <script src="/bower_components/jquery/dist/jquery.min.js"></script>
 <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
-<script src="/assets/js/global.js"></script>
-</body>
 
-</html>
+<script src="/assets/js/global.js"></script>
 
 
   </body>

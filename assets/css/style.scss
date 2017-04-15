@@ -12,13 +12,16 @@
 **/
 
 /** redefine glyphicon path **/
-$icon-font-path: "{{site.baseurl}}/bower_components/bootstrap-sass/assets/fonts/bootstrap/" !default;
+$icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/" !default;
 
 @import "bootstrap";
 
 /**
   Set your custom scss rules here
 **/
+.dataTables_scrollHead{
+    overflow: visible !important;
+}
 
 .sidenav {
     height: 100%;
