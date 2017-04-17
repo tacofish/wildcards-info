@@ -60,6 +60,8 @@ permalink: /rules/
       <li>Guild bank materials are only accessible to Team Managers. If you need something, ask, do not help yourself.</li>
       <li>Be open minded and receptive to feedback, but also provide constructive feedback.</li>
       <li>Keep disputes in private messages. This is to make sure resolution is met without disrupting others.</li>
+      <li>Please give us as much notice about being unable to show up to raid as possible. Life happens, but starting on time is
+        going to start being more and more important as we hit harder content. If you can't make it for a number of raids, please ping a team manager (you can find them <a href="{{site.baseurl}}members/">here</a>) and let them know. While you won't get booted for missing a raid without telling anyone (this isn't a job =]), it's considerate and multiple misses like that may be considered a lack of interest and result in your removal from the team.</li>
     </ul>
   </div>
 </div>
